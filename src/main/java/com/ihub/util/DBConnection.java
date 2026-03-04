@@ -7,7 +7,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:postgresql://localhost:5432/todo_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() {
 
